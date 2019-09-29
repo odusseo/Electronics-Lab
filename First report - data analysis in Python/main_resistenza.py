@@ -52,14 +52,6 @@ def main():
     print('Linear regression only B: volt =',repr(ufloat(B,dB)))
 
     ###################################
-    # Random voltage
-    ###################################
-    # out=np.empty(15,dtype=np.float)
-    # for i in range(15):
-    #     out[i] = trow()
-    # print('out:', out)
-
-    ###################################
     # Import data and adjustments
     ###################################
     curr, volt = import_data('bobina.csv')
